@@ -1,0 +1,51 @@
+.titulo{
+    background-color: #000002;
+    padding: 12px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+hr{
+    border: 2px solid #000002;
+}
+h3{
+    background-color: slategray;
+    padding: 8px;
+    border-radius: 12px;
+    
+}
+.paragrafo{
+    background-color: wheat;
+    padding: 8px;
+    border-radius: 12px;
+    border: 2px solid black;
+    text-align: justify;
+}
+.secao{
+    background-color: rgb(233, 240, 237);
+    padding: 8px;
+    border-radius: 12px;
+    border: 2px solid black;
+    text-align: justify;
+}
+.topico{
+    background-color: wheat;
+    padding: 8px;
+    border-radius: 12px;
+    border: 2px solid black;
+    text-align: justify;
+    font-weight: bolder;
+}
+
+body {
+  background-image: url("fundo.png");
+  background-size: cover;
+  background-position: center;
+}
+h2{
+    background-color: slategray;
+    padding: 8px;
+    border-radius: 12px;
+    text-align: center;
+    
+}
