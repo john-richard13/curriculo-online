@@ -1,0 +1,132 @@
+h1{
+    padding: 12px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 12px;
+    font-size: 2.5rem;
+}
+
+body{
+    max-width: 720px; /* Largura ideal para leitura */
+    margin: 40px auto; /* Centraliza o post */
+    padding: 30px;
+    background: rgb(22, 21, 22); /* Fundo branco para o texto */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1); /* Sombra leve */
+    text-align: justify;
+    background-image: url("Imagem/Background.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+p{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+
+
+span{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+
+.pai{
+    max-width: 720px; /* Largura ideal para leitura */
+    margin: 40px auto; /* Centraliza */
+    padding: 30px;
+    background: white; /* Fundo do box */
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    text-align: justify;
+}
+
+
+
+hr{
+    border: 2px solid rgb(22, 22, 22);
+    margin: 10px 0;
+   }
+
+
+.caixa{
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+
+    background-color: antiquewhite;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+
+    text-align: center;
+}
+
+
+
+
+.skills {
+    list-style: none;
+}
+
+.skills li {
+    background: #1f2937;
+    color: white;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.botao-voltar{
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+footer{
+text-align:center;
+margin-top:40px;
+font-size:14px;
+color:black;
+background-color: antiquewhite;
+border-radius: 12px;
+}
+
+.nota{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    text-align: center;
+    margin-top: 5px;
+}

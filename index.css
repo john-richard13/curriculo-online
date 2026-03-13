@@ -1,0 +1,113 @@
+h1{
+    padding: 12px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 12px;
+    font-size: 2.5rem;
+}
+
+body{
+    max-width: 720px; /* Largura ideal para leitura */
+    margin: 40px auto; /* Centraliza o post */
+    padding: 30px;
+    background: rgb(22, 21, 22); /* Fundo branco para o texto */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1); /* Sombra leve */
+    text-align: justify;
+    background-image: url("Imagem/Background.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+p{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+
+
+span{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+
+.pai{
+    max-width: 720px; /* Largura ideal para leitura */
+    margin: 40px auto; /* Centraliza */
+    padding: 30px;
+    background: white; /* Fundo do box */
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    text-align: justify;
+}
+
+
+
+hr{
+    border: 2px solid rgb(22, 22, 22);
+    margin: 10px 0;
+}
+
+
+.caixa{
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+
+    background-color: antiquewhite;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+
+    text-align: center;
+}
+
+.botao{
+    width: 50%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+    background:  gray;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bolder;
+}
+
+.icone{
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: left;
+}
